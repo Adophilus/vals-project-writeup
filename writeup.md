@@ -359,4 +359,27 @@ There several methods of deploying a system, these includes;
 - Pilot Operation
 - For this particular system, parallel Operation was chosen because the parallel operation changeover method requires that both the old and the new system operates fully for a specified period. When users are satisfied that the new system operates correctly, the old system is terminated.
 
+# CHAPTER FIVE
+# SUMMARY, CONCLUSIONS AND RECOMMENDATIONS
+
+## 5.1 Summary
+Information communications systems is one of the most important foundations for building a society. Social media platforms have been on the rise in recent years and the trend would not stop anytime soon.
+
+## 5.2 Conclusions
+It has been a great pleasure for us to work on this exciting and challenging project. This project proved good for us as it provided practical knowledge of not only programming, in web-based application and no some extent Windows Application and NodeJS environment, but also about all handling procedure related with “Notice Board”. It also provides knowledge about the latest technology used in developing web enabled application and client server technology that will be great demand in future. This will provide better opportunities and guidance in future in developing projects independently. The benefits derived from this work cannot be over emphasized as tremendous amount of new knowledge was revealed and acquired in the course of study for this project work. 
+In spite of the constraints encountered during the implementation of this project, the aim of the project is well accomplished.
+
+## 5.3 Recommendation
+Based on the objectives of this project and experience gained during its design and implementation, I wish to the following recommendation for future improvement of information systems. 
+Information systems should incorporate a sleek and user friendly design in order to captivate users and make them stay longer on the platform. This system will be useful since it is computerized and will promote effective, efficient and improve service delivery. The use of this software developed for users will make their work easier.
+
+# REFERENCES
+
+Afe Babalola University, Uyo, "The Impact of Information and Communication Technologies" pp.  8-13. 
+Research in Computer and Communication Engineering, vol. 3, no. 3, pp. 665–688.
+Moon, Y., Leung, C., Yuen, K., Ho, H., & Yu, X, (2000), “A CRM model based on voice over IP”, Canadian Conference on Electrical and Computer Engineering. Conference Proceedings. Navigating to a New Era (Cat. No.00TH8492), pp. 464-468.
+Khan, A.I., Qurashi, R. J and Khan, U. A. (2011). 'A Comprehensive Study of Commonly Practiced Heavy and Light Weight Software Methodologies ', IJCSI International Journal of Computer Science Issues, 8(4), pp. [Online]. Available at: https://arxiv.org/ftp/arxiv/papers/1111/1111.3001.pdf
+V. C. Buyut, S. H. Siadat, 2008, “2008 International Conference on Computer and Electrical Engineering, pp. 419-423.
+	A. Bhondge, A. Bhatkar, 2015, “Interactive Voice Response System by Using Asterisk”,International Journal of Innovative 
+A. Bhondge, A. Bhatkar, S. Fender, S. Thakre, M. Goel, (2015), “Interactive Voice Response System by Using Asterisk”,International Journal of Innovative Research in Computer and Communication Engineering, vol. 3, no. 3, pp. 665–688.
 
