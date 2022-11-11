@@ -332,9 +332,15 @@ A system architecture is a Conceptual model that defines the structure, behavior
 ### 4.3.1 System Flowchart
 A flowchart is a diagram that depicts a process, system or computer algorithm. They are widely used in multiple fields to document, study, plan, improve and communicate often complex processes in clear, easy-to-understand diagrams. The system flow diagram is a visual representation of all processed in sequential order, it is a graphical representation of the relation between all the major parts or step of the system. To develop a more accurate system, the flowchart cycle below was developed, validation is always performed every time a user tries to login and if the validation result is not satisfying, the user cannot login. After the development converges, the system will be tested and some quantitative measurement will be computed to determine if the design works well, the factors that affect its performance would also be analyzed, and incremental modifications will be performed accordingly.
 
+[Login Process Flowchart](./imgs/login-flowchart.jpeg)
+**Login Process Flowchart**
+
 ## 4.4 Data Modeling
 A data model an abstract model that organizes data description, data semantics, and consistency constraints of data. The data model emphasizes on what data is needed and how it should be organized instead of what operations will be performed on data. It is like an architect's building plan, which helps to build conceptual models and set a relationship between data items.
 
+
+[Database Model](./imgs/db-model.png)
+**Database Model**
 
 ## 4.5 Implementation
 This is the system of laying down direction and principles to be followed in other to achieve the desired goals and objectives. Precisely, implementation involves the practical method of putting into functioning all theoretical design and getting the system into implementation or operation.
