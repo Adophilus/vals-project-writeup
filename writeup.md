@@ -89,4 +89,154 @@ Researchers have shown different perspectives and concepts related to informatio
 
 Finally, the paper made mention of communication technologies which could be used to further develop the present mode of operation.
 
+# CHAPTER THREE
+# RESEARCH METHODOLOGY
 
+## 3.1 Research Methodology Overview
+
+A research methodology is a systematic approach of well-define procedure that should be followed in carrying out a true research project. An adequate suitable methodology used helps to ensure that a thorough study of the present system is carried out, thus helping the project researcher to completely understand the modus operandi of the present existing system so as to know how the new system should be structured and functionalities needed in it to address the seemingly, existing problems discovered. This also helps to know if there should be total overhauling of the existing system or if the only improvement should be made.
+
+Many different methodologies have been used in designing a model. The methods can be summarized into several categories which includes:
+
+- **Waterfall Model**: This model follows a sequential order which ensures that a phase is completed before another phase begins. This system model emphasizes planning at the early stage, its used in project where all the system requires are known and in addition, its intensive documentation and planning make it work well for projects in which quality control is a major concern. (Mishra, 2015).
+The phases of waterfall model are: Requirements, Design, Implementation, Testing, and Maintenance.
+Hence, for the aforementioned reason we will not adopt waterfall model. 
+
+- **Prototyping Model**: Prototyping Model is a software development model in which prototype is built, tested, and reworked until an acceptable prototype is achieved. It also creates base to produce the final system or software. It works best in scenarios where the project's requirements are not known in detail. It is an iterative, trial and error method which takes place between developer and client.
+
+Prototyping Model has six SDLC phases as which include:
+Requirements gathering and analysis, Quick design, build a Prototype, Initial user evaluation, refining prototype, and Implement Product and Maintain.
+
+#### Advantages of the Prototyping Model
+- Users are actively involved in development. Therefore, errors can be detected in the initial stage of the software development process.
+Missing functionality can be identified, which helps to reduce the risk of failure as Prototyping is also considered as a risk reduction activity.
+- Helps team member to communicate effectively.
+- User satisfaction exists because the user can feel the product at a very early stage.
+- There will be hardly any chance of software rejection.
+
+#### Disadvantages of the Prototyping Model
+- Prototyping is a slow and time taking process.
+- The cost of developing a prototype is a total waste as the prototype is ultimately thrown away.
+- Prototyping may encourage excessive change requests.
+- Sometimes customers may not be willing to participate in the iteration cycle for the longer time duration.
+- Poor documentation because the requirements of the customers are changing.
+- Due to the fact that the cost of developing a prototype is a waste and it also slows the processing time, we will not adopt this model as methodology that will be used in building this project.
+
+- **Spiral Model**: is a risk-driven software development process model. It is a combination of waterfall model and iterative model. Spiral Model helps to adopt software development elements of multiple process models for the software project based on unique risk patterns ensuring efficient development process.
+Each phase of spiral model begins with a design goal and ends with the client reviewing the progress. The development process in Spiral model in SDLC, starts with a small set of requirements and goes through each development phase for those set of requirements. The software engineering team adds functionality for the additional requirement in every-increasing spirals until the application is ready for the production phase.
+
+The phases of spiral model are:    
+ Planning, Risk Analysis, Engineering, and Evaluation.
+
+
+#### Advantages of Spiral Model
+- Additional functionality or changes can be done at a later stage.
+- Cost estimation becomes easy as the prototype building is done in small fragments.
+- There is always a space for customer feedback.
+- Development is fast and features are added in a systematic way in Spiral development
+- Continuous or repeated development helps in risk management.
+
+#### Disadvantages of Spiral Model
+- Risk of not meeting the schedule or budget.
+- Spiral development works best for large projects only also demands risk assessment expertise.
+- Spiral software development is not advisable for smaller project, it might cost them a lot.
+- Documentation is more as it has intermediate phases.
+- For its smooth operation spiral model protocol needs to be followed strictly.
+
+Spiral model is specifically for large project development due to its cost effective. For the purpose of this project spiral model will not be the best methodology to adopt. 
+
+- **RAD Model**: RAD Model or Rapid Application Development model is a software
+development process based on prototyping without any specific planning. In RAD
+model, there is less attention paid to the planning and more priority is given to the development tasks. It targets at developing software in a short span of time. It focuses on input-output source and destination of the information. It emphasizes on
+delivering projects in small pieces; the larger projects are divided into a series of smaller projects. The main features of RAD modeling is that it focuses on the reuse of templates, tools, processes, and code.
+
+RAD modeling has following phases:
+Business Modeling, Data Modeling, Process Modeling, Application Generation, and Testing and Turnover.
+
+#### Advantages of RAD Model:
+- Flexible and adaptable to changes.
+- It is useful when you have to reduce the overall project risk.
+- It is easier to transfer deliverables as scripts, high-level abstractions and intermediate codes are used.
+- Due to code generators and code reuse, there is a reduction of manual coding.
+- Each phase in RAD delivers highest priority functionality to client.
+
+#### Disadvantages of RAD Model:
+- It can't be used for smaller projects.
+- Not all application is compatible with RAD.
+- Reduced features due to time boxing, where features are pushed to a later version to finish a release in short period.
+- If developers are not committed to delivering software on time, RAD projects can fail. 
+- Requires highly skilled designers or developers.
+- Progress and problems accustomed are hard to track as such there is no documentation to demonstrate what has been done.
+- RAD Model is a methodology that is not situatable for small project work and does not incorporate documentation in the developing a model. For this reason, we won’t adopt it.
+
+## 3.2 Methodology Adopted
+A software development methodology or system development methodology is a frame work that is used to structure, plan and control the process of developing an information system. Hence, after duly considering the above methodologies the Agile Methodology is adopted because agile methodology is a software development methodology that is more responsive to customer needs than the traditional methods such as the waterfall development model. The waterfall development model is similar to a wide and slow-moving value stream, and halfway through the project, 100% of the requirements are typically 50% done. However, for agile development, 50% of requirements are typically 100% done halfway through the project. This methodology has a strong collaborative style of working, and its approach. Agile is designed to accommodate change and the need to produce software faster.
+Agile values individuals and their relationships and interactions over tools, it features customer collaboration throughout the development process, it responds to change instead of following a set-in-stone plan, and focuses on presenting working software rather than documentation.  
+
+### 3.2.1 Stages of Agile Methodology
+Customer needs are changing at a rapid pace, particularly in software development. Agile development embraces constant change through an iterative approach to technology design and development. The Agile lifecycle adds structure to what is a fluid and flexible method of delivering a working product.
+The 5 stages of the Agile System Development Life Cycle (SDLC) are;
+Project Initiation: The first stage in the life cycle of agile software development. Often referred to as the inception or envision phase, this initial stage is about discussing the project vision and the ROI justification. This is a high-level feasibility discussion and does not delve into the specific details. During this step, you should identify team members and determine the time and work resources are required to complete the project. Taking stock of resources is crucial to determining economic feasibility for project approval.
+
+Planning: This speculative phase is when the Agile lifecycle really takes shape for the team. Release planning is where the team gets together with their sponsor or product owner and identifies exactly what they are looking for. They discuss how this will be made possible by building the backlog at the story level. A good way to think about stories is how the end-user might describe the feature or product. A story should include the type of user, what they want from the product and why. The business opportunity in a wider context should be considered here. This will impact how viable the project is in a functional and financial sense and should be estimating the risks and developing milestones with an initial release plan. Planning is only complete when your backlog is complete and you have prioritized the items based on business value and dependency.
+
+- **Development**: Once the requirements have been defined based on feedback from the product owners and stakeholders, the actual work begins. Agile product development delivers high quality working products in incremental phases, sprints, or iterations. Developers start building the first iteration of the product with the aim of having a working, usable product at the end of the sprint. This is far from the final version and will undergo a number of revisions so it should only include minimum functionality. This functionality can be expanded on in future iterations of the Agile lifecycle.
+
+- **Production**: Your product has now been deployed and is being used by final end-users. It is important to closely monitor these early stages for bugs or defects missed in testing. A handover with relevant training should take place between the production and support teams. These final processes and handovers can vary depending on the type of product you are outputting. The production phase typically ends when the product is ready to be retired.
+
+- **Retirement**: The final stage of the Agile lifecycle. The product is now at the ‘end of life’ stage and will be pulled from production and decommissioned (sometimes referred to as ‘sunsetting’). Customers are notified and informed about migration to newer releases or alternative options. Products are retired for a number of reasons. In most cases, it is because a newer release is being deployed and (or) the older release is no longer being supported. In this case, some final, minor software updates may be made to the newer system. It could also be retired because the product is not cost-effective within the current business model and therefore phased out.
+
+### 3.2.2 Differences between Agile and Waterfall 
+The agile model focuses on an iterative and incremental approach to software development, whereas in the Waterfall model, software development takes place sequentially from the start to end. 
+You’d have to break down an agile project into individual models. But you won’t have to do that in the Waterfall approach.
+Customers get early and frequent access to your working product in the agile approach. They can give you feedback accordingly and let you change your future work plan. On the other hand, customers will get access to the product only when it’s finished if you follow the Waterfall approach.
+Agile development is excellent for small projects as you can complete them fast. The Waterfall method is great for large projects because you can make more accurate estimations and complete the plan accordingly.
+There is less planning in Agile development in comparison to Waterfall development.
+
+### 3.2.3 Agile Methodology Steps 
+The following are steps involved in Agile Methodology:
+SCRUM: SCRUM is a framework that focuses on empowering teams to work together. It is a heuristic. It focuses on adjusting to factors that fluctuate and continuous learning. It understands that a team doesn’t necessarily know everything at the start of the task. Scrum is based on the strategies of rugby teams. It focuses on enhancing the collaboration in a team by dividing it into smaller ones, just like a rugby team does. In a rugby team, it has different groups of players who have specific responsibilities. Scrum has three primary artifacts that are an increment, a sprint backlog, and a product backlog. 
+
+### 3.2.4 Advantages of Agile Methodology
+Agile today stands as one of the most popular approaches to project management because of its flexibility and evolutionary nature. Its advantages include;
+
+- Superior quality product
+- Customer satisfaction
+- Better control
+- Improved project predictability
+- Reduced risks
+- Increased flexibility
+- Continuous improvement
+- Improved team morale
+- More relevant metrics.
+
+## 3.3 Data Gathering Techniques 
+A thorough investigation of the current system was made in order to obtain detailed fact about the application area to be redesigned. Investigation also covers looking at the functional requirement of the system and finding out whether the requirements and objective of the present system are big achieved.
+
+### 3.3.1 Interviewing
+In view to investigation, students were investigated and a mini-poll was made on a small sample size of 50 students. This method yields the most profitable result as it is obtained by physical contact. The essential element of the interview is obtained directly and in a short time than when other methods are employed sice the interviewer is with the interviewed. This immediate feedback gives the opportunity to ask ambiguous questions and hence, obtain responses.
+
+### 3.3.2 Use of Secondary data
+Internal and external data is expected to be collected, in order to give a clear understanding of this project study. 
+Internal sources of data included but not limited to making use of the school library, surverying students, and inductive reasoning.
+External sources of data included Commercial journals, Text books, Research reports, Government publications and the internet to access vital resources for the purpose of the project.
+
+## 3.4 Tools and Materials
+For effective design and implementation of this flexible call center solution for MSMEs, there are key tools and materials that was put together;
+
+### 3.4.1 HTML
+HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. This project is a web-based project and html was strictly used to structure the web pages for the project 
+
+### 3.4.2 CSS (BOOTSTRAP)
+CSS (Cascading Style Sheets) is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. CSS helps to beautify the web pages and makes it look more presentable. 
+BOOTSTRAP is a CSS frame work that helps in making the web pages responsive on different screen size. This project is designed to be accessible from any device and bootstrap is used, to give it a better user experience.  
+
+### 3.4.3 JavaScript (Vue.js)
+JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. The
+Third-party library used in the implementation of the user interface in this project is Vue.js which is a modern web development framework for developing reactive web apps.
+
+### 3.4.4 PouchDB
+PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser. PouchDB was created to help web developers build applications that work as well offline as they do online.
+
+### 3.4.5 NodeJS
+Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node. js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
