@@ -240,3 +240,123 @@ PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is
 
 ### 3.4.5 NodeJS
 Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node. js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+# CHAPTER FOUR
+# DESIGN AND IMPLEMENTATION
+
+This chapter depicts how the system is designed; it shows the input and output requirement of the system, the hardware and software requirement and other requirements. It shows a system flowchart that shows how operations are carried out. 
+
+## 4.1 User and System Requirements
+System requirements are the building blocks used to build systems; they describe what the system “shall do.” System requirements are classified as either functional or non-functional requirements.  A functional requirement specifies something that a user needs to perform their work. Non-functional requirements specify all the remaining requirements not covered by the functional requirements. While user requirements, often referred to as user needs, describe what the user does with the system, such as what activities that users must be able to perform
+
+### 4.1.1 Functional Requirements
+
+#### Admin Management
+
+- The system will allow an admin to set it up
+- The system will allow an admin to login
+- The system will allow an admin to post (scoped) notices
+- The system will allow an admin to modify posted notices
+- The system will allow an admin to view notices
+- The system will allow an admin to delete notices
+
+#### User Management
+- The system will allow students to sign up
+- The system will allow students to login
+- The system will allow a student to view notices relevant to them
+
+#### Non-Functional Requirements
+#### Usability 
+- The system must be easy to use by both Admins and Users such that they do not need to read an extensive number of manuals.
+- The system must be quickly accessible by both Admins and Users.
+- The system must be intuitive and simple in the way it displays all relevant data and relationships.
+- The menus of the system must be easily navigable by the Admins with buttons that are easy to understand. 
+
+#### Reliability 
+
+- The System must give accurate caller status to the admin continuously. Any inaccuracies are taken care by the regular confirming of the actual levels with the levels displayed in the system.
+- The System must successfully add any response given by the users to the database and Admins dashboard.
+- The system must provide a password enabled login to the Admin to avoid any foreign entity changing the data in the system.
+- The system should provide the Admins updates on completion of requested processes and if the requested processes fail, it should provide the user the reason for the failure.
+- The system should not update the data in any database for any failed processes.
+-- Performance 
+- The system must not lag, because the Users using it don’t have down-time to wait for it to complete an action.
+- The system must complete updating the databases, setting up the occasions successfully every time the Admin requests such a process.
+- All the functions of the system must be available to the Admins and     Users every time the system is turned on.
+- The calculations performed by the system must comply according to     the norms set by the user and should not vary unless explicitly changed by the user.
+
+#### Implementation 
+- The System User Interface is built using Bootstrap 4 and Vue.js.
+- The Programming is done in Sublime Text 3.
+- The Database is implemented using PouchDB.
+
+#### Interfacing
+- The system must offer an easy and simple way of viewing Admin dashboard
+- The system must be able to display all notices relevant to users on the admin dashboard.
+
+### 4.1.3    Software Requirements
+- The software requirements are basically for both the server and clients. The server side requires
+NodeJS, whereas the clients require only the web browsers. 
+The following are the list
+- Operating System version: Windows 7 or higher (32- or 64-bit operating system)
+- Front-End Tools: Sublime Text 3
+- Back-End Tools:  NodeJS
+- Database Tools: PouchDB
+- Technology: JavaScript
+
+### 4.1.4 Hardware Requirements
+In the cost of the design, the software developed needed the following hardware for an effective and efficient operation of the new system. 
+- IBM Intel or Microsoft compatible computers.
+- Processor: Pentium 2.0 GHz or above
+- Memory: 2GB RAM or above
+- Hard Disk: 250GB or above 
+- Display -5VGA
+- Keyboard: Standard Windows Keyboard
+- Mouse: Two or Three Button Mouse
+
+## 4.2 System Model
+System modeling is the process of developing abstract models of a system, with each model presenting a different view or perspective of that system. It is about representing a system using some kind of graphical notation, which is now almost always based on notations in the Unified Modeling Language (UML). Models help the analyst to understand the functionality of the system, they are used to communicate with customers (Khan, 2011).
+
+### 4.2.1 System Use Case
+A use case diagram is the primary form of system/software requirements for a new software program underdeveloped. Use cases specify the expected behavior (what), and not the exact method of making it happen (how). A key concept of use case modeling is that it helps us design a system from the end user's perspective
+
+[Diagram]
+Use case for Admin
+
+[Diagram]
+Use case for User
+
+## 4.3  System Architecture 
+A system architecture is a Conceptual model that defines the structure, behavior, and more views of a system. An architecture description is a formal description and representation of a system, organized in a way that supports reasoning about the structures and behaviors of the system (Jaakkola, 2011).
+
+### 4.3.1 System Flowchart
+A flowchart is a diagram that depicts a process, system or computer algorithm. They are widely used in multiple fields to document, study, plan, improve and communicate often complex processes in clear, easy-to-understand diagrams. The system flow diagram is a visual representation of all processed in sequential order, it is a graphical representation of the relation between all the major parts or step of the system. To develop a more accurate system, the flowchart cycle below was developed, validation is always performed every time a user tries to login and if the validation result is not satisfying, the user cannot login. After the development converges, the system will be tested and some quantitative measurement will be computed to determine if the design works well, the factors that affect its performance would also be analyzed, and incremental modifications will be performed accordingly.
+
+## 4.4 Data Modeling
+A data model an abstract model that organizes data description, data semantics, and consistency constraints of data. The data model emphasizes on what data is needed and how it should be organized instead of what operations will be performed on data. It is like an architect's building plan, which helps to build conceptual models and set a relationship between data items.
+
+
+## 4.5 Implementation
+This is the system of laying down direction and principles to be followed in other to achieve the desired goals and objectives. Precisely, implementation involves the practical method of putting into functioning all theoretical design and getting the system into implementation or operation.
+ 
+### 4.5.1 Setting up the developmental environment 
+Before building applications, there is a need to prepare the development environment with each technology, and tools to aid development and debugging, technologies to be used in this project as stated in the software requirements include NodeJS environment, modern web browser and API.
+
+## 4.6 System testing
+System testing is an important element of software quality assurance and represents the ultimate review of specification, design and coding.  There are rules that can serve as testing objectives.  They are; Testing is a process of executing a program with the intent of finding an error. A good test case is one that has high probability of finding an undiscovered error. A successful test is one that uncovers an undiscovered error.
+Unit Testing:   In testing this system, the individual functions and modules were put to the test independently.  By following this strategy all, the errors in coding were identified and corrupted.  This method was applied in combination with the white and black box testing techniques to find the errors in each module.
+
+- *Integration Testing*: Again, this software testing strategy has different approach in which integration is carried out from the top-level module to the bottom and the bottom-up approach in which integration is carried out from the low-level module to the top. The modules are tested using the bottom-up approach by introducing stumps for the top-level functions.
+ This test used to identify the errors in the interfaces, the errors in passing the parameters between the functions and corrects them. 
+
+- *Acceptance Testing*:  Acceptance testing is sometimes performed with realistic data of the client to demonstrate that the software is working satisfactorily.  It includes database features like integrity, consistency, security and validity.
+
+## 4.7 System Deployment
+There several methods of deploying a system, these includes;
+- Direct Cutover
+- Parallel Operation
+- Phased Operation
+- Pilot Operation
+- For this particular system, parallel Operation was chosen because the parallel operation changeover method requires that both the old and the new system operates fully for a specified period. When users are satisfied that the new system operates correctly, the old system is terminated.
+
+
