@@ -320,10 +320,10 @@ System modeling is the process of developing abstract models of a system, with e
 ### 4.2.1 System Use Case
 A use case diagram is the primary form of system/software requirements for a new software program underdeveloped. Use cases specify the expected behavior (what), and not the exact method of making it happen (how). A key concept of use case modeling is that it helps us design a system from the end user's perspective
 
-[Diagram]
-Use case for Admin
+[Use case for Admin](./imgs/use-case-admin.png)
+**Use case for Admin**
 
-[Diagram]
+[Use case for User](./imgs/use-case-user.png)
 Use case for User
 
 ## 4.3  System Architecture 
@@ -346,10 +346,10 @@ Before building applications, there is a need to prepare the development environ
 System testing is an important element of software quality assurance and represents the ultimate review of specification, design and coding.  There are rules that can serve as testing objectives.  They are; Testing is a process of executing a program with the intent of finding an error. A good test case is one that has high probability of finding an undiscovered error. A successful test is one that uncovers an undiscovered error.
 Unit Testing:   In testing this system, the individual functions and modules were put to the test independently.  By following this strategy all, the errors in coding were identified and corrupted.  This method was applied in combination with the white and black box testing techniques to find the errors in each module.
 
-- *Integration Testing*: Again, this software testing strategy has different approach in which integration is carried out from the top-level module to the bottom and the bottom-up approach in which integration is carried out from the low-level module to the top. The modules are tested using the bottom-up approach by introducing stumps for the top-level functions.
+- **Integration Testing**: Again, this software testing strategy has different approach in which integration is carried out from the top-level module to the bottom and the bottom-up approach in which integration is carried out from the low-level module to the top. The modules are tested using the bottom-up approach by introducing stumps for the top-level functions.
  This test used to identify the errors in the interfaces, the errors in passing the parameters between the functions and corrects them. 
 
-- *Acceptance Testing*:  Acceptance testing is sometimes performed with realistic data of the client to demonstrate that the software is working satisfactorily.  It includes database features like integrity, consistency, security and validity.
+- **Acceptance Testing**:  Acceptance testing is sometimes performed with realistic data of the client to demonstrate that the software is working satisfactorily.  It includes database features like integrity, consistency, security and validity.
 
 ## 4.7 System Deployment
 There several methods of deploying a system, these includes;
@@ -380,6 +380,6 @@ Research in Computer and Communication Engineering, vol. 3, no. 3, pp. 665–688
 Moon, Y., Leung, C., Yuen, K., Ho, H., & Yu, X, (2000), “A CRM model based on voice over IP”, Canadian Conference on Electrical and Computer Engineering. Conference Proceedings. Navigating to a New Era (Cat. No.00TH8492), pp. 464-468.
 Khan, A.I., Qurashi, R. J and Khan, U. A. (2011). 'A Comprehensive Study of Commonly Practiced Heavy and Light Weight Software Methodologies ', IJCSI International Journal of Computer Science Issues, 8(4), pp. [Online]. Available at: https://arxiv.org/ftp/arxiv/papers/1111/1111.3001.pdf
 V. C. Buyut, S. H. Siadat, 2008, “2008 International Conference on Computer and Electrical Engineering, pp. 419-423.
-	A. Bhondge, A. Bhatkar, 2015, “Interactive Voice Response System by Using Asterisk”,International Journal of Innovative 
+A. Bhondge, A. Bhatkar, 2015, “Interactive Voice Response System by Using Asterisk”,International Journal of Innovative 
 A. Bhondge, A. Bhatkar, S. Fender, S. Thakre, M. Goel, (2015), “Interactive Voice Response System by Using Asterisk”,International Journal of Innovative Research in Computer and Communication Engineering, vol. 3, no. 3, pp. 665–688.
-
+Wenqing Zhang 2017 IOP Conf. Ser.: Earth Environ. Sci. 100 012073, "Research on the Integration of IT Network Technology and TV Production and Broadcasting System", pp 3-4.
